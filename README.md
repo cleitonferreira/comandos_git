@@ -224,6 +224,11 @@ Os demais **pushes** não precisam dessa informação
 
 	git clone git@github.com:leocomelli/curso-git.git
 	
+### Clonar branch github
+
+	git clone -b <branch> <remote_repo>
+	git clone -b develop git@github.com:user/myproject.git
+	
 ### Tags
 
 ##### Criando uma tag leve
