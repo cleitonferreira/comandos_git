@@ -445,6 +445,10 @@ Se o commit estiver com o problema, então ele deverá ser marcado como **ruim**
 Depois de encontrar o commit com problema, para retornar para o *HEAD* utilize:
 	
 	git bisect reset
+	
+##### Tenho que voltar para uma versão antiga, e agora ?	
+	git reset --hard {hash-do-commit-desejado}
+
  	
 
 # Contribuições
