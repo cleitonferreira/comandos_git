@@ -460,10 +460,16 @@ Depois de encontrar o commit com problema, para retornar para o *HEAD* utilize:
 ### Git Flow
 
 Se você já trabalha com o git como principal ferramenta de controle de versão, já deve ter visto várias abordagens de como utilizar e controlar branchs em um cenário de produção ou pessoal.
+
 E se você é novo com git, este fluxo irá te ajudar a ter maior familiaridade de como empresas, projetos opensource costumam utilizar seus fluxos de trabalho.
+
 É muito comum vermos pessoas utilizando somente um branch para fazer commits em projetos pessoais. Isto não é errado, é muito tranquilo de se controlar tudo em uma branch quando se está desenvolvendo sozinho, mas o cenário muda bastante quando temos que interagir com mais contribuidores, seja em um projeto opensource ou privado.
+
 Nessas horas é suma importância que se tenha total controle do que está sendo produzido por sua equipe, onde, ao mesmo tempo são corrigidos falhas, implementado novas funcionalidades e ter o seu código de produção com total funcionamento entregue ao seu cliente.
+
 É ai que o fluxo de git flow nos ajuda, vem com o cabrito olhar a imagem abaixo para entender melhor:
+
+![](git_flow_model.png)
 
 A **master** irá contér todo código já testado, versionado que será entregue ao cliente e a **develop** é onde todo fluxo de trabalho irá ocorrer antes de fazer o release versionado que será feito merge na **master**.
 
