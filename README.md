@@ -449,6 +449,11 @@ Depois de encontrar o commit com problema, para retornar para o *HEAD* utilize:
 ##### Tenho que voltar para uma versão antiga, e agora ?	
 	git reset --hard {hash-do-commit-desejado}
 
+##### Deletar a branch feature local	
+	git branch -D feature/{branch}
+	
+##### Deletar a branch feature remota	
+	git push origin :feature/{branch}	
  	
 
 # Contribuições
