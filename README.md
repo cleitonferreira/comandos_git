@@ -453,7 +453,10 @@ Depois de encontrar o commit com problema, para retornar para o *HEAD* utilize:
 	git branch -D feature/{branch}
 	
 ##### Deletar a branch feature remota	
-	git push origin :feature/{branch}	
+	git push origin :feature/{branch}
+	
+##### Nome de arquivo muito longo no Git para Windows	
+	git clone -c core.longpaths=true <repo-url>	
 
 ## Utilizando o fluxo Git Flow
 
