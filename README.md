@@ -504,6 +504,8 @@ Após ter criado a develop, onde irá acontecer todo desenvolvimento, crie a bra
 #### Show, implementação feita, agora é hora de fazer o merge deste feature com a develop, para isto, faça o checkout para a branch develop, faça o merge da feature e atualize o remoto:
 	git checkout develop && git merge feature/novo-componente && git push origin develop
 	
+#### Trazer as alterações da develop para a minha branch, faça o checkout para a branch feature, faça o merge da develop e atualize o remoto:
+	git checkout feature/novo-componente && git merge develop && git push origin feature/novo-componente	
 
 #### Caso não ocorra nenhum conflito, beleza, estamos prontos para fazer o release desta implementação e submeter ao repositório remoto, para isto, crie a branch de release e envie:
 	git checkout -b release/v1.0.1 && git push origin release/v1.0.1	
